@@ -1,5 +1,5 @@
 @font-face {
-  font-family: 'KerakNeraka';
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   src: url('./KerakNeraka-8Oaoz.otf');
   font-weight: normal;
   font-style: normal;
@@ -7,7 +7,7 @@
 
 :root {
   --color-bg: rgba(103, 157, 157, 0.587);
-  --color-fg: #ae1a1a;
+  --color-fg: #701212;
 
   --font-body: sans-serif;
   --font-header: 'KerakNeraka', sans-serif;
@@ -32,8 +32,11 @@ body {
     display: grid;
     place-items: center;
     background-color: var(--color-bg);
-    background-image: url(../fnafcm.png);
+    background-image: url(../fnafcmjulkrims.png);
+    background-repeat:repeat-y;
+    background-size: cover;
     z-index: -1;
+
 }
 
 main {
@@ -49,6 +52,7 @@ h1 {
     font-family: var(--font-header);
     letter-spacing: .1em;
 }
+
 
 p {
     font-size: var(--step-2);
