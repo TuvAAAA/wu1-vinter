@@ -1,5 +1,5 @@
 @font-face {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: cursive;
   src: url('./KerakNeraka-8Oaoz.otf');
   font-weight: normal;
   font-style: normal;
@@ -7,7 +7,7 @@
 
 :root {
   --color-bg: rgba(103, 157, 157, 0.587);
-  --color-fg: #b95858;
+  --color-fg: #000000;
 
   --font-body: sans-serif;
   --font-header: 'KerakNeraka', sans-serif;
@@ -32,7 +32,7 @@ body {
     display: grid;
     place-items: center;
     background-color: var(--color-bg);
-    background-image: url(../fnafmjulen.png);
+    background-image: url(../avatarcm.png);
     background-repeat:repeat-y;
     background-size: cover;
     z-index: -1;
