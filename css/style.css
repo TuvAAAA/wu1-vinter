@@ -1,5 +1,5 @@
 @font-face {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Times New Roman', Times, serif;
   src: url('./KerakNeraka-8Oaoz.otf');
   font-weight: normal;
   font-style: normal;
@@ -9,8 +9,8 @@
   --color-bg: rgba(103, 157, 157, 0.587);
   --color-fg: #b95858;
 
-  --font-body: sans-serif;
-  --font-header: 'KerakNeraka', sans-serif;
+  --font-body: Times;
+  --font-header: serif;
 
   --step--2: clamp(0.6331rem, 0.6141rem + 0.0949vw, 0.6877rem);
   --step--1: clamp(0.844rem, 0.7993rem + 0.2234vw, 0.9724rem);
